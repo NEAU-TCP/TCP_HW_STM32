@@ -1,0 +1,21 @@
+--cpu Cortex-M3
+"led_like_string\startup_stm32f103xb.o"
+"led_like_string\main.o"
+"led_like_string\stm32f1xx_it.o"
+"led_like_string\stm32f1xx_hal_msp.o"
+"led_like_string\stm32f1xx_hal_gpio_ex.o"
+"led_like_string\stm32f1xx_hal.o"
+"led_like_string\stm32f1xx_hal_rcc.o"
+"led_like_string\stm32f1xx_hal_rcc_ex.o"
+"led_like_string\stm32f1xx_hal_gpio.o"
+"led_like_string\stm32f1xx_hal_dma.o"
+"led_like_string\stm32f1xx_hal_cortex.o"
+"led_like_string\stm32f1xx_hal_pwr.o"
+"led_like_string\stm32f1xx_hal_flash.o"
+"led_like_string\stm32f1xx_hal_flash_ex.o"
+"led_like_string\stm32f1xx_hal_exti.o"
+"led_like_string\system_stm32f1xx.o"
+--strict --scatter "LED_like_string\LED_like_string.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LED_like_string.map" -o LED_like_string\LED_like_string.axf
