@@ -4,7 +4,7 @@
 
 *覆盖内容：IIC，GPIO中断*  
 
-1. OLED程序 
+1. OLED程序  
    使用IIC驱动OLED显示一段字符内容为“HELLO WORLD”  
 
 2. 编码器程序  
